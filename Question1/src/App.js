@@ -14,8 +14,25 @@ function App() {
         <a href='#/stats'>Statistics</a>
        </nav>
       </header>
-    </div>
 
+      <main className='content'>
+        {/*Page placeholder*/}
+        <section id="shortner" className='card'>
+          <h2>Shorten your URL</h2>
+          <p className='helper'>
+
+          </p>
+        </section>
+
+        <section id="stats" className='card'>
+          <h2>Statistics</h2>
+          <p className='helper'>
+            
+          </p>
+        </section>
+
+      </main>
+    </div>
     
   );
 }
